@@ -1,25 +1,38 @@
 /********** Base styles **********/
+.style {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0000ff; 
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+body {
+	font-size: 100%;
+}
+
 h1 {
 	text-align: center;
 	margin: 10px;
+	font-size: 1.75em;
 }
 
 div {
 	padding: 10px;
 }
 
-section {
+div.container {
 	background-color: gray;
 	border: 1px solid black;
+	padding: 0px;
 }
 
 p {
-	padding: 10px;
+	padding: 0px;
+	overflow: scroll;
 }
 .p1 {
 	width: 33%;
@@ -29,9 +42,11 @@ p {
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
 	text-align: center;
+	font-size: 1.25em;
 }
 .p2 {
-  	padding-top: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
   	margin-top: 0px;
   	overflow: auto;
 }
@@ -61,7 +76,7 @@ div.d1 {
     float: left;
     border: 1px solid green;
   }
-  .col-lg-1 {
+  /*.col-lg-1 {
     width: 8.33%;
   }
   .col-lg-2 {
@@ -69,11 +84,11 @@ div.d1 {
   }
   .col-lg-3 {
     width: 25%;
-  }
+  }*/
   .col-lg-4 {
     width: 33.33%;
   }
-  .col-lg-5 {
+  /*.col-lg-5 {
     width: 41.66%;
   }
   .col-lg-6 {
@@ -96,7 +111,7 @@ div.d1 {
   }
   .col-lg-12 {
     width: 100%;
-  }
+  }*/
 }
 
 /********** Medium devices only (Tablet) **********/
@@ -105,7 +120,7 @@ div.d1 {
     float: left;
     border: 1px solid green;
   }
-  .col-md-1 {
+  /*.col-md-1 {
     width: 8.33%;
   }
   .col-md-2 {
@@ -119,11 +134,11 @@ div.d1 {
   }
   .col-md-5 {
     width: 41.66%;
-  }
+  }*/
   .col-md-6 {
     width: 50%;
   }
-  .col-md-7 {
+  /*.col-md-7 {
     width: 58.33%;
   }
   .col-md-8 {
@@ -137,7 +152,13 @@ div.d1 {
   }
   .col-md-11 {
     width: 91.66%;
-  }
+  }*/
   .col-md-12 {
     width: 100%;
   }
+  #sushi
+  {
+  	width: 16.66%;
+  	left: 83.34%;
+  }
+}
